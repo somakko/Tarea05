@@ -1,0 +1,176 @@
+body{
+    background-color: rgb(255, 253, 204);
+}
+main{
+    background-color: white;
+    width: 90%;
+    justify-self: center;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+.palcentro{
+    margin: 20px;
+}
+#encabezado{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#casita{
+    background-color: rgb(226, 226, 226);
+}
+#casita img{
+    width: 30%;
+    height: 100%;
+    margin: 20px;
+}
+#cajita{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    justify-content: right;
+    margin: 0px;
+}
+li{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 2px;
+    font-family: Open Sans;
+}
+#larguito{
+    margin-right: 70px;
+}
+li:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    color: black;
+}
+#contenido{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 4px solid rgb(140, 209, 140);
+    border-top: 4px solid rgb(140, 209, 140);
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    margin-top: 0px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    margin: 10px;
+    justify-content: center;
+}
+.info2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: justify;
+}
+.foto{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+.foto img{
+    width: 100%;
+    height: 60%;
+    margin: 2px;
+}
+#chikito img{
+    height: 70%;
+}
+#titulo1{
+    background-color: #e34c26;
+    color: white;
+    text-align: center;
+    height: 20px;
+    font-family: Roboto;
+}
+#titulo2{
+    background-color: #e0cc57;
+    color: white;
+    text-align: center;
+    height: 20px;
+    font-family: Roboto;
+}
+#titulo3{
+    background-color: #264de4;
+    color: white;
+    text-align: center;
+    height: 20px;
+    font-family: Roboto;
+}
+#titulo4{
+    background-color: #474A8A;
+    color: white;
+    text-align: center;
+    height: 20px;
+    font-family: Roboto;
+}
+#xd1{
+    margin-top: 10px;
+}
+#xd2{
+    margin-top: 10px;
+}
+#xd3{
+    margin-top: 10px;
+}
+#xd4{
+    margin-top: 10px;
+}
+.letrita{
+    font-family: Roboto;
+    color: rgb(105, 104, 104);
+}
+#rojo{
+    color: red;
+}
+#verde{
+    color: green;
+}
+#azul{
+    color: blue;
+}
+#celeste{
+    color: white;
+    background-color: rgb(0, 191, 255);
+}
+#negro{
+    color: white;
+    background-color: black;
+    font-style: italic;
+}
+#piecito{
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#texto{
+    width: 100%;
+}
+#red{
+    display: flex;
+    justify-content: right;
+}
+#red img{
+    width: 50%;
+    height: 50%;
+    margin: 5px
+}
